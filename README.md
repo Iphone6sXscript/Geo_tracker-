@@ -7,7 +7,7 @@ Works on **Arch**, because it on test
 
 
 
-![Demo]((https://i.ibb.co/20hRqJy8/Screenshot-2025-06-02-at-22-33-24-Location-Tracker-with-Video.png))
+![Demo](https://github.com/Iphone6sXscript/Geo_tracker-/blob/main/Screenshot%202025-06-02%20at%2022-33-24%20Location%20Tracker%20with%20Video.png?raw=true))
 
 ---
 
