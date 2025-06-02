@@ -11,7 +11,7 @@ Works on **Arch**, because it on test
 
 ---
 
-## 📥 Installation & Setup
+##  Installation & Setup
 
 ### 1. still no TUTO
 
