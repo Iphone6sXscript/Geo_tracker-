@@ -13,7 +13,13 @@ Works on **Arch**, because it on test
 
 ## 📥 Installation & Setup
 
-### 1. still no TUTO
+### 1. still no TUTO 
+### 2. SETUP 
+| Platform       | Command                                      |
+|----------------|----------------------------------------------|
+| Arch           |cd *the please that file is located*          |
+|                |python3 server.py                             |
+and it will be on localhost because it on prototype
 
 Credits
 
